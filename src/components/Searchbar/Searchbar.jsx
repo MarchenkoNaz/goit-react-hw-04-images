@@ -36,6 +36,8 @@ const Searchbar = ({ onSubmit }) => {
 	)
 }
 
-Searchbar.propTypes = {}
+Searchbar.propTypes = {
+	onSubmit: PropTypes.func.isRequired
+}
 
 export default Searchbar
